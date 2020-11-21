@@ -41,6 +41,7 @@ int main( int argc, char* args[] )
       //Update the surface
       SDL_UpdateWindowSurface( window );
 
+      // https://stackoverflow.com/questions/34424816/sdl-window-does-not-show
       SDL_Event e;
       bool quit = false;
       while (!quit){
